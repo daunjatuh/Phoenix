@@ -9,7 +9,7 @@
    ],
    "description": "Modular Telegram bot for managing your groups with a few extras!",
    "env": {
-      "ALLOW_EXCL": {
+      "ALLOW_EXCL": {True}
          "description": "Set this to True if you want ! to be a command prefix along with /",
          "value": "True"
       },
@@ -18,33 +18,33 @@
          "required": false,
          "value": "CAADBQAD4wADfM2sJL9oYRrTPgH9FgQ"
       },
-      "DEL_CMDS": {
+      "DEL_CMDS": {True}
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
          "value": "True"
       },
-      "DONATION_LINK": {
+      "DONATION_LINK": {false}
          "description": "Optional: link where you would like to receive donations.",
          "value": "https://www.paypal.me/PaulSonOfLars",
          "required": false
       },
-      "ENV": {
+      "ENV": {ANYTHING}
          "description": "Setting this to ANYTHING will enable environment variables.",
          "value": "ANYTHING"
       },
-      "OWNER_ID": {
+      "OWNER_ID": {1398275631}
          "description": "Your user ID as an integer.",
          "value": "615304572"
       },
-      "OWNER_USERNAME": {
+      "OWNER_USERNAME": {@Nanaa_Okee}
          "description": "Your username",
          "value": "TheRealPhoenix"
       },
-      "PORT": {
+      "PORT": {8443}
          "description": "Port to use for your webhooks.",
          "required": false,
          "value": "8443"
       },
-      "STRICT_GBAN": {
+      "STRICT_GBAN": {True}
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, they will be banned.",
          "value": "True"
       },
@@ -56,7 +56,7 @@
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "value": "214416808 826584317 486514034 228851485"
       },
-      "TOKEN": {
+      "TOKEN": {1630544513:AAGBp8PM8Rz0k-idDiUjPrT8K7-m1lCaL4o}
          "description": "Your bot token.",
          "value": ""
       },
